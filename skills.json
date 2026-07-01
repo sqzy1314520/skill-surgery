@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "name": "skill-surgery",
+  "version": "0.3.1",
+  "description": "Meta-skill that injects self-evolution lifecycles (on_load/on_use/on_error/on_unload) into any Hermes Agent SKILL.md",
+  "license": "MIT",
+  "skills": ["."],
+  "metadata": {
+    "author": "sqzy1314520",
+    "source": "https://github.com/sqzy1314520/skill-surgery",
+    "tags": ["hermes-agent", "meta-skill", "self-evolution", "skill-lifecycle", "agent-governance"]
+  }
+}
