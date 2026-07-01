@@ -1,0 +1,14 @@
+{
+  "name": "skill-surgery",
+  "description": "Meta-skill that injects self-evolution lifecycles (on_load/on_use/on_error/on_unload) into any Hermes Agent SKILL.md — turning static instruction sets into self-improving components.",
+  "categories": ["meta-skill", "self-evolution", "developer-tools"],
+  "author": "sqzy1314520",
+  "repository": "https://github.com/sqzy1314520/skill-surgery",
+  "install": "hermes skills install github:sqzy1314520/skill-surgery/SKILL.md",
+  "metadata": {
+    "hermes": {
+      "tags": ["meta-skill", "self-evolution", "skill-lifecycle", "agent-governance"],
+      "version": "0.3.1"
+    }
+  }
+}
