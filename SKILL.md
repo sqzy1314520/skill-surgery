@@ -1,7 +1,9 @@
 ---
 name: skill-surgery
 description: "元技能——给任意 Skill 自动封装生命周期壳（on_load/on_use/on_error/on_unload），将其升级为自进化组件"
-version: 0.3.0
+version: 0.3.1
+license: MIT
+compatibility: hermes-agent
 changelog:
   - 0.3.0: 【真·辩证剖析补强】封装回写目标SKILL.md（不只写AGENTS.md）；验证分两层（文档层+30天行为层）；封装模式不再只是文档量区分（新增on_error隐性信号注入/30天追查/自动回滚）；自举记录从"已完成"降为"部分完成"加三重门验证（2026-07-01）
   - 0.2.0: 辩证剖析补强——新增Pitfalls（自举≠标记完成/封装完成≠封装有效）、已知缺口表、封装质量标准（2026-07-01）
@@ -228,3 +230,4 @@ bash ~/.hermes/scripts/encapsulation-audit.sh <封装后的技能名>
 | `references/feedback-descent-pattern.md` | EvoSkill 反馈下降重置模式——修正确认后计数归零（2026-07-01 吸收）|
 | `references/bootstrap-record.md` | 自举过程+已封装清单 |
 | `references/model-cognition-gap-2026-07-01.md` | V4-pro vs V4-flash认知差距——自进化系统的执行端选择（2026-07-01）|
+| `references/model-routing-strategy.md` | 模型路由策略——什么时候用pro/什么时候用flash（2026-07-01实战验证）|
